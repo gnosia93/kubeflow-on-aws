@@ -27,6 +27,9 @@ eksctl create cluster \
 --nodes-max 5 \
 --managed \
 --with-oidc
+
+aws eks describe-cluster --name $CLUSTER_NAME --region $CLUSTER_REGION
+
 ```
 
 2. Kubeflow 설치
