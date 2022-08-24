@@ -1,7 +1,7 @@
 ## 실습순서 ##
 
 
-* [1. 설치]()
+* [1. 설치](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
 
 
 ## refs ##
