@@ -3,7 +3,7 @@
 
 ```
 brew install yq
-
+brew install jq
 ```
 
 
