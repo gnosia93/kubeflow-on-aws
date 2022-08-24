@@ -1,14 +1,15 @@
+## 실습순서 ##
 
 
 * [1. 설치]()
 
 
+## refs ##
+
 * https://rfriend.tistory.com/category/Kubeflow
 * https://litiblue.com/post/kubeflow-pipelines/
 
 
-
-## refs ##
 
 * https://www.kubeflow.org/docs/started/
 * https://www.manceps.com/articles/tutorial/data-science-workflows-on-kubernetes-with-kubeflow-pipelines-part-1
