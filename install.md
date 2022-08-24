@@ -69,6 +69,7 @@ auth                        dex-5ddf47d88d-2jlsd                                
 
 
 ## 참고자료 ##
+* [kubeflow 1.4 설치](https://velog.io/@csk6124/Kubeflow-1.4-%EC%84%A4%EC%B9%98)
 * https://aiden-jeon.github.io/issue_with_auth/
 * https://lcc3108.github.io/articles/2020-12/Istio+Dex-%EC%9D%B8%EC%A6%9D
 * https://awslabs.github.io/kubeflow-manifests/docs/deployment/
