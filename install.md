@@ -4,7 +4,7 @@
 ```
 brew install yq
 brew install jq
-brew install kustomize
+brew install kustomize <-- v 3.2.0 으로만 설치해야 함.. ㅜㅜㅜ  
 
 ```
 
