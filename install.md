@@ -1,4 +1,12 @@
-* https://awslabs.github.io/kubeflow-manifests/docs/deployment/
+
+0. 소프트웨어 설치
+
+```
+brew install yq
+
+```
+
+
 
 1. EKS 클러스터 설치
 
@@ -28,3 +36,10 @@ git clone https://github.com/awslabs/kubeflow-manifests.git && cd kubeflow-manif
 git checkout ${AWS_RELEASE_VERSION}
 git clone --branch ${KUBEFLOW_RELEASE_VERSION} https://github.com/kubeflow/manifests.git upstream
 ```
+
+
+
+## 참고자료 ##
+
+* https://awslabs.github.io/kubeflow-manifests/docs/deployment/
+
