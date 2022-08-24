@@ -69,6 +69,7 @@ auth                        dex-5ddf47d88d-2jlsd                                
 
 
 ## 참고자료 ##
-
+* https://aiden-jeon.github.io/issue_with_auth/
+* 
 * https://awslabs.github.io/kubeflow-manifests/docs/deployment/
 
