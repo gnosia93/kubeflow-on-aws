@@ -4,6 +4,8 @@
 ```
 brew install yq
 brew install jq
+brew install kustomize
+
 ```
 
 
