@@ -60,7 +60,8 @@ kubectl get pods -n kserve
 ```
 kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 
-
+kubectl get pods --all-namespaces | grep dex
+auth                        dex-5ddf47d88d-2jlsd                                         1/1     Running            0          63m
 ```
 
 
