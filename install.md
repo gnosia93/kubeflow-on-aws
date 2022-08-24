@@ -13,8 +13,8 @@ eksctl create cluster \
 --nodegroup-name linux-nodes \
 --node-type m5.xlarge \
 --nodes 5 \
---nodes-min 5 \
---nodes-max 10 \
+--nodes-min 3 \
+--nodes-max 5 \
 --managed \
 --with-oidc
 ```
