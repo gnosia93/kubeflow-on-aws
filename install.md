@@ -22,9 +22,9 @@ eksctl create cluster \
 --region ${CLUSTER_REGION} \
 --nodegroup-name linux-nodes \
 --node-type m5.xlarge \
---nodes 5 \
---nodes-min 3 \
---nodes-max 5 \
+--nodes 3 \
+--nodes-min 1 \
+--nodes-max 3 \
 --managed \
 --with-oidc
 
