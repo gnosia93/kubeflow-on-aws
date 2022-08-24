@@ -3,7 +3,7 @@
 1. EKS 클러스터 설치
 
 ```
-export CUSTER_NAME="kubeflow"
+export CLUSTER_NAME="kubeflow"
 export CLUSTER_REGION="ap-northeast-2"
 
 eksctl create cluster \
