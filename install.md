@@ -41,6 +41,19 @@ git clone --branch ${KUBEFLOW_RELEASE_VERSION} https://github.com/kubeflow/manif
 while ! kustomize build deployments/vanilla | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 30; done
 ```
 
+3. Kubeflow 동작 확인
+
+```
+kubectl get pods -n cert-manager
+kubectl get pods -n istio-system
+kubectl get pods -n auth
+kubectl get pods -n knative-eventing
+kubectl get pods -n knative-serving
+kubectl get pods -n kubeflow
+kubectl get pods -n kubeflow-user-example-com
+# Depending on your installation if you installed KServe
+kubectl get pods -n kserve```
+
 
 
 ## 참고자료 ##
