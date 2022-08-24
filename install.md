@@ -55,6 +55,13 @@ kubectl get pods -n kubeflow-user-example-com
 kubectl get pods -n kserve
 ```
 
+4. 콘솔 로그인
+
+```
+kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
+
+
+```
 
 
 ## 참고자료 ##
