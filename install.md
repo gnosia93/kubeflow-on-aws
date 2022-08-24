@@ -68,6 +68,15 @@ auth                        dex-5ddf47d88d-2jlsd                                
 ```
 
 
+5. 클러스터 삭제
+
+```
+export CLUSTER_NAME="kubeflow"
+
+eksctl delete cluster --name ${CLUSTER_NAME}
+```
+
+
 ## 참고자료 ##
 * https://aws.amazon.com/ko/about-aws/whats-new/2022/05/aws-distribution-kubeflow-supporting-kubeflow-v1-4-1-generally-available/
 * [kubeflow 1.4 설치](https://velog.io/@csk6124/Kubeflow-1.4-%EC%84%A4%EC%B9%98)
