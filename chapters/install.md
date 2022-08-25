@@ -1,6 +1,8 @@
 
 ### 1. 소프트웨어 설치 ###
 
+로컬 PC 에 다음에 나오는 소프트웨어를 설치한다. kustomize 의 경우 3.2.0 으로만 설치해야 큐브플로우가 정상 동작한다.
+
 ```
 brew install yq
 brew install jq
