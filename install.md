@@ -63,12 +63,12 @@ kubectl get all -n dex
 
 4. 콘솔 로그인
 
+proxy 를 통해서 큐브플로우에 로그인 한다. 로그인에 사용되는 메일 주소는 user@example.com 패스워드는 12341234 이다. 
 ```
 kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
-
-kubectl get pods --all-namespaces | grep dex
-auth                        dex-5ddf47d88d-2jlsd                                         1/1     Running            0          63m
 ```
+![login](https://github.com/gnosia93/kubeflow-on-aws/blob/main/images/kf-login1.png)
+
 
 
 5. 클러스터 삭제
