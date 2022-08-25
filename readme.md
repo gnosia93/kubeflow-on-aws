@@ -1,16 +1,14 @@
 ## 실습순서 ##
 
 
-* [1. 리소스 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
+* [1. 큐브플로우 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
 
-* 
-
-6. multiple node groups
-
-http://arun-gupta.github.io/eks-multi-nodegroup/
+* [2. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install-gpu.md)
 
 
-* [9. 리소스 삭제](https://github.com/gnosia93/kubeflow-on-aws/blob/main/delete.md)
+
+
+* [9. 큐브플로우 삭제](https://github.com/gnosia93/kubeflow-on-aws/blob/main/delete.md)
 
 
 -----------
