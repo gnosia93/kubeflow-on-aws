@@ -1,5 +1,5 @@
 
-0. 소프트웨어 설치
+### 1. 소프트웨어 설치 ###
 
 ```
 brew install yq
@@ -10,7 +10,7 @@ brew install kustomize <-- v 3.2.0 으로만 설치해야 함.. ㅜㅜㅜ
 
 
 
-1. EKS 클러스터 설치
+### 2. EKS 클러스터 설치 ###
 
 ```
 export CLUSTER_NAME="kubeflow"
@@ -32,7 +32,7 @@ aws eks describe-cluster --name $CLUSTER_NAME --region $CLUSTER_REGION
 eksctl get nodegroups --cluster kubeflow
 ```
 
-2. Kubeflow 설치
+### 3. Kubeflow 설치 ###
 
 ```
 export KUBEFLOW_RELEASE_VERSION=v1.5.1
@@ -44,7 +44,7 @@ git clone --branch ${KUBEFLOW_RELEASE_VERSION} https://github.com/kubeflow/manif
 while ! kustomize build deployments/vanilla | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 30; done
 ```
 
-3. Kubeflow 동작 확인
+### 4. Kubeflow 동작 확인 ###
 
 ```
 kubectl get pods -n cert-manager
@@ -54,29 +54,22 @@ kubectl get pods -n knative-eventing
 kubectl get pods -n knative-serving
 kubectl get pods -n kubeflow
 kubectl get pods -n kubeflow-user-example-com
-# Depending on your installation if you installed KServe
 kubectl get pods -n kserve
 
 kubectl get all -n istio-system
 kubectl get all -n dex
 ```
 
-### 4. 콘솔 로그인 ###
+### 5. 콘솔 로그인 ###
 
 클라우드에 설치된 큐브플로우 어드민 페이지에 로그인 하기위해서는 아래와 같이 proxy를 먼저 실행해야 한다.
 로그인 이메일 주소는 user@example.com 이고, 패스워드는 12341234 이다. 
-
 
 ```
 kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 ```
 ![login1](https://github.com/gnosia93/kubeflow-on-aws/blob/main/images/kf-login1.png)
 ![login2](https://github.com/gnosia93/kubeflow-on-aws/blob/main/images/kf-login2.png)
-
-
-
-
-
 
 
 
