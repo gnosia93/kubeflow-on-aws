@@ -61,9 +61,12 @@ kubectl get all -n istio-system
 kubectl get all -n dex
 ```
 
-4. 콘솔 로그인
+### 4. 콘솔 로그인 ###
 
-proxy 를 통해서 큐브플로우에 로그인 한다. 로그인에 사용되는 메일 주소는 user@example.com 패스워드는 12341234 이다. 
+클라우드에 설치된 큐브플로우 어드민 페이지에 로그인 하기위해서는 아래와 같이 proxy를 먼저 실행해야 한다.
+로그인시 이메일 주소는 user@example.com 패스워드는 12341234 이다. 
+
+
 ```
 kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 ```
