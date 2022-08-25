@@ -56,6 +56,9 @@ kubectl get pods -n kubeflow
 kubectl get pods -n kubeflow-user-example-com
 # Depending on your installation if you installed KServe
 kubectl get pods -n kserve
+
+kubectl get all -n istio-system
+kubectl get all -n dex
 ```
 
 4. 콘솔 로그인
