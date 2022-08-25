@@ -81,4 +81,4 @@ kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 * https://aiden-jeon.github.io/issue_with_auth/
 * https://lcc3108.github.io/articles/2020-12/Istio+Dex-%EC%9D%B8%EC%A6%9D
 * https://awslabs.github.io/kubeflow-manifests/docs/deployment/
-* https://kangwoo.kr/2021/01/22/dex-%ea%b8%b0%eb%b0%98%ec%9d%98-kubeflow%ec%97%90-%ec%82%ac%ec%9a%a9%ec%9e%90-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/
+* [Dex 기반의 Kubeflow에 사용자 추가하기](https://kangwoo.kr/2021/01/22/dex-%ea%b8%b0%eb%b0%98%ec%9d%98-kubeflow%ec%97%90-%ec%82%ac%ec%9a%a9%ec%9e%90-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/)
