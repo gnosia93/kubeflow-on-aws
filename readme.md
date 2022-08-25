@@ -17,7 +17,7 @@
 
 
   
-## refs ##
+## 참고자료 ##
 
 * git clone https://github.com/kubeflow/examples.git git_kubeflow-examples
 
