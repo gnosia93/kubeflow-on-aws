@@ -29,7 +29,7 @@ eksctl create cluster \
 --with-oidc
 
 aws eks describe-cluster --name $CLUSTER_NAME --region $CLUSTER_REGION
-
+eksctl get nodegroups --cluster kubeflow
 ```
 
 2. Kubeflow 설치
