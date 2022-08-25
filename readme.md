@@ -3,6 +3,13 @@
 
 * [1. 리소스 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
 
+* 
+
+6. multiple node groups
+
+http://arun-gupta.github.io/eks-multi-nodegroup/
+
+
 * [9. 리소스 삭제](https://github.com/gnosia93/kubeflow-on-aws/blob/main/delete.md)
 
 
