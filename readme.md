@@ -1,7 +1,7 @@
 ## 실습순서 ##
 
 
-* [1. 큐브플로우 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install.md)
+* [1. 큐브플로우 설치하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install.md)
 
 * [2. 노트북 사용하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/jupyter.md) 
 
@@ -11,7 +11,7 @@
 
 
 
-* [9. 큐브플로우 삭제](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/delete.md)
+* [9. 큐브플로우 삭제하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/delete.md)
 
 
   
