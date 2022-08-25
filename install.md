@@ -75,18 +75,6 @@ kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 
 
 
-5. 클러스터 삭제
-
-```
-export CLUSTER_NAME="kubeflow"
-
-eksctl delete cluster --name ${CLUSTER_NAME}
-```
-
-
-6. multiple node groups
-
-http://arun-gupta.github.io/eks-multi-nodegroup/
 
 
 
