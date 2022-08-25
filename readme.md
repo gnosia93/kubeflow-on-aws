@@ -18,7 +18,7 @@
 
   
 ## refs ##
-
+* git clone https://github.com/kubeflow/examples.git git_kubeflow-examples
 * https://rfriend.tistory.com/category/Kubeflow
 * https://litiblue.com/post/kubeflow-pipelines/
 
