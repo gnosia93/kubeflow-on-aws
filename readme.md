@@ -3,7 +3,10 @@
 
 * [1. 큐브플로우 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
 
-* [2. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install-gpu.md)
+* [2. 노트북 사용하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/jupyter.md) 
+
+
+* [8. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install-gpu.md)
 
 
 
