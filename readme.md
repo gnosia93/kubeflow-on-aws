@@ -1,22 +1,19 @@
 ## 실습순서 ##
 
 
-* [1. 큐브플로우 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
+* [1. 큐브플로우 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install.md)
 
-* [2. 노트북 사용하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/jupyter.md) 
-
-
-* [8. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install-gpu.md)
+* [2. 노트북 사용하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/jupyter.md) 
 
 
+* [8. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install-gpu.md)
 
 
-* [9. 큐브플로우 삭제](https://github.com/gnosia93/kubeflow-on-aws/blob/main/delete.md)
 
 
------------
-* [2. GPU 인스턴스 설치]
-  - https://aws.amazon.com/ko/blogs/compute/running-gpu-accelerated-kubernetes-workloads-on-p3-and-p2-ec2-instances-with-amazon-eks/
+* [9. 큐브플로우 삭제](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/delete.md)
+
+
   
 ## refs ##
 
