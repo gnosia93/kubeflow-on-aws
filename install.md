@@ -70,7 +70,8 @@ kubectl get all -n dex
 ```
 kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 ```
-![login](https://github.com/gnosia93/kubeflow-on-aws/blob/main/images/kf-login1.png)
+![login1](https://github.com/gnosia93/kubeflow-on-aws/blob/main/images/kf-login1.png)
+![login2](https://github.com/gnosia93/kubeflow-on-aws/blob/main/images/kf-login2.png)
 
 
 
