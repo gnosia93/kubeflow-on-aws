@@ -23,5 +23,5 @@
 ## 참고자료 ##
 
 * git clone https://github.com/kubeflow/examples.git git_kubeflow-examples
-
 * 큐브플로우 소개와 활용법 - https://www.youtube.com/watch?v=szygR7G3ZY8
+* https://istio.io/latest/docs/
