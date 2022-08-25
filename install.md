@@ -77,6 +77,14 @@ eksctl delete cluster --name ${CLUSTER_NAME}
 ```
 
 
+6. multiple node groups
+
+http://arun-gupta.github.io/eks-multi-nodegroup/
+
+
+
+
+
 ## 참고자료 ##
 * https://aws.amazon.com/ko/about-aws/whats-new/2022/05/aws-distribution-kubeflow-supporting-kubeflow-v1-4-1-generally-available/
 * [kubeflow 1.4 설치](https://velog.io/@csk6124/Kubeflow-1.4-%EC%84%A4%EC%B9%98)
