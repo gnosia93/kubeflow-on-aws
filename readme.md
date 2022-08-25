@@ -7,8 +7,11 @@
 
 * [3. 파이프라인](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/pipeline.md) 
 
+* [4. 분산학습]()
 
-* [8. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install-gpu.md)
+* [5. 세이지 메이커 연동]()
+
+* [8. GPU 노드 추가하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install-gpu.md)
 
 
 
