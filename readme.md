@@ -1,9 +1,10 @@
 ## 실습순서 ##
 
 
-* [1. 설치](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
-
-
+* [1. 큐브플로우 설치](https://github.com/gnosia93/kubeflow-on-aws/blob/main/install.md)
+* [2. GPU 인스턴스 설치]
+  - https://aws.amazon.com/ko/blogs/compute/running-gpu-accelerated-kubernetes-workloads-on-p3-and-p2-ec2-instances-with-amazon-eks/
+  
 ## refs ##
 
 * https://rfriend.tistory.com/category/Kubeflow
