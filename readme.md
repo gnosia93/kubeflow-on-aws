@@ -5,6 +5,8 @@
 
 * [2. 노트북 사용하기](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/jupyter.md) 
 
+* [3. 파이프라인](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/pipeline.md) 
+
 
 * [8. GPU 노드 생성](https://github.com/gnosia93/kubeflow-on-aws/blob/main/chapters/install-gpu.md)
 
@@ -26,4 +28,3 @@
 * https://www.manceps.com/articles/tutorial/data-science-workflows-on-kubernetes-with-kubeflow-pipelines-part-1
 * https://www.manceps.com/articles/tutorial/kubeflow-pipelines-tutorial
 * 큐브플로우 소개와 활용법 - https://www.youtube.com/watch?v=szygR7G3ZY8
-* 미니 큐브 플로우 노트북 설치 - https://rfriend.tistory.com/676?category=966421
